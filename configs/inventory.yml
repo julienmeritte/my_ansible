@@ -1,0 +1,11 @@
+hosts:
+    webserver:
+        ssh_address: 87.106.157.38
+        ssh_port: 22
+        ssh_username: nux-webserver
+        ssh_password: webservermdp
+    bastion:
+        ssh_address: 87.106.157.38
+        ssh_port: 22
+        ssh_username: nux-bastion
+        ssh_password: bastionmdp

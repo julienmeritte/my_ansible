@@ -1,0 +1,5 @@
+- module: command
+  params:
+    command: |
+      echo "test" > /tmp/dummy-file
+      cat /tmp/dummy-file
